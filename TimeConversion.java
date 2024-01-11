@@ -15,7 +15,7 @@ public class TimeConversion {
     }
 
     private static String convertTo24Hour(String inputTime) {
-        // Extract components of the input time
+
         int hours = Integer.parseInt(inputTime.substring(0, 2));
         int minutes = Integer.parseInt(inputTime.substring(3, 5));
         int seconds = Integer.parseInt(inputTime.substring(6, 8));
